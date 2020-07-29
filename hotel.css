@@ -1,0 +1,29 @@
+	body{
+	margin:100px;
+	padding:20px;
+	background-color:red;
+	}
+	div{
+	margin:20px;
+	border: 2px solid black;
+	width:50%;
+	background-color:black;
+	}
+	div h1{
+	margin-right:40px;
+	font-size:30px;
+	text-align:center;
+	float:right;
+	background-color:white;
+	text-align:center;
+	}
+	div img{
+	margin-left:20px;
+	margin-top:10px;
+	}
+	div p{
+	clear:both;
+	margin-top:5px;
+	text-align:left;
+	color:white;
+	}
