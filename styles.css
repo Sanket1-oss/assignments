@@ -1,0 +1,246 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #61122f;
+}
+header{
+    background-color: #f6b319;
+}
+#logo-img{
+    background: url('logo_large.png') no-repeat;
+    width: 150px;
+    height: 150px;
+    margin:0px;
+    opacity:0.8
+}
+.navbar-brand p span{
+    vertical-align: middle;
+}
+.navbar-brand{
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.navbar-brand p{
+    padding-left:5px
+}
+.navbar-nav {
+    text-align: center;
+}
+.navbar-nav a:hover{
+    background-color: darkgrey;
+}
+a#brand{
+    text-decoration: none;
+}
+#brand h1{
+    color: #61122f;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px white;
+}
+#phone{
+    padding-bottom: 0px;
+    vertical-align: middle;
+}
+.navbar-toggler{
+    clear: both;
+}
+#contact a{
+    font-size: 1.5em;
+    display: block;
+    margin: 10px 20px 0px 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+}
+#deliver{
+    text-align: center;
+    color:white;
+}
+.container .jumbotron {
+    box-shadow: 0 0 50px #3F0C1F;
+    border: 2px solid #3F0C1F;
+}
+#menu_tile, #specials_tile, #map_tile{
+    height:250px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    position:relative; 
+    overflow: hidden;  
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+  }
+#menu_tile{
+    background: url('menu-tile.jpg') no-repeat;
+    background-position: center;
+}
+#specials_tile{
+    background: url('specials-tile.jpg') no-repeat;
+    background-position: center;
+}
+#menu_tile span, #specials_tile span, #map_tile span{
+    position: absolute;
+    bottom: 0px;
+    right:0px;
+    background-color:#000;
+    width:100%;
+    text-align:center;
+    color:whitesmoke;
+    font-size: 1.5em;
+    opacity: 0.8;
+}
+.panel-footer{
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+    color: whitesmoke;
+}
+.panel-footer div.row {
+    margin-bottom: 35px;
+  }
+  #hours, #address {
+    line-height: 2;
+  }
+  #hours > span, #address > span {
+    font-size: 1.3em;
+  }
+  #address p {
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+  }
+  #testimonials {
+    font-style: italic;
+  }
+  #testimonials p:nth-child(2) {
+    margin-top: 25px;
+  }
+#main-content{
+    margin-top:30px;
+}
+.about{
+    color: whitesmoke;
+    width:80%;
+    margin:auto;
+}
+.about p{
+    text-indent: 50px;
+    text-align: justify;
+    font-size:1.5em;
+}
+/*Menu category*/
+.menu{
+    height: 200px;
+    width:200px;
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.menu span{
+    position: absolute;
+    bottom:0px;
+    right:0px;
+    width:100%;
+    background-color: #222;
+    text-align:center;
+    font-size: 1.2em;
+    color: whitesmoke;
+    opacity: 0.8;
+}
+.menu:hover{
+    box-shadow: 2px 2px 2px 2px white;
+}
+/*Single menu category*/
+.menu-item-title{
+    margin-bottom: 25px;
+    padding:10px;
+}
+.menu-item-photo {
+    position: relative;
+    border: 2px solid #3F0C1F; 
+    overflow: hidden;
+    padding: 0;
+    margin-right: -15px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width: 250px;
+    height: 150px;
+  }
+.menu-item-photo div{
+    position: absolute;
+    right:0;
+    bottom:0;
+    width:80px;
+    text-align: center;
+    background-color: #557c3e;
+}
+.menu-item-description{
+    padding-right:20px;
+}
+h3.menu-item-title {
+    margin: 0 0 10px;
+    color: whitesmoke;
+  }
+  .menu-item-details {
+    font-size: .9em;
+    font-style: italic;
+    color: whitesmoke;
+  }
+  #headpart{
+      color: whitesmoke;
+      text-align: center;
+      margin-bottom: 30px;
+  }
+
+
+
+@media (min-width: 1200px) {
+    .container .jumbotron {
+        background: url('jumbotron_1200.jpg') no-repeat;
+        height: 675px;
+      }
+      
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #logo-img{
+        background: url('logo_medium.png') no-repeat;
+        width: 100px;
+        height: 100px;
+        margin:0px;
+    }
+    .logo-l{
+        padding-top: 15px;
+    }
+    .container .jumbotron {
+       background: url('jumbotron_992.jpg') no-repeat;
+       height:558px;
+      }
+      
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container .jumbotron {
+        background: url('jumbotron_768.jpg') no-repeat;
+        height: 432px;
+      }
+}
+
+@media (max-width: 767.98px) {
+    .container .jumbotron {     
+        padding:0px;
+      }
+}
+
+
+
+
+
+
+
